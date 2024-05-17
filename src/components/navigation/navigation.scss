@@ -1,0 +1,37 @@
+.navigation {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    z-index: 100;
+    .sidebar {
+        display: grid;
+        align-content: start;
+        background-color: black;
+        animation: sidebar 0.3s ease-in-out;
+        .sidebar-link {
+            padding: 20px 40px;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .sidebar-link:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: orangered;
+        }
+    }
+}
+
+@keyframes sidebar {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="140" viewBox="0 0 300 140">
+  <g id="B1_FF" transform="translate(0 -290)">
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(0 300)" fill="#fff" stroke="#000" stroke-width="1">
+      <rect width="300" height="100" stroke="none"/>
+      <rect x="0.5" y="0.5" width="299" height="99" fill="none"/>
+    </g>
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(0 290)" fill="#fff" stroke="#000" stroke-width="1">
+      <rect width="80" height="120" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="119" fill="none"/>
+    </g>
+    <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(220 290)" fill="#fff" stroke="#000" stroke-width="1">
+      <rect width="80" height="120" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="119" fill="none"/>
+    </g>
+    <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(110 290)" fill="#fff" stroke="#000" stroke-width="1">
+      <rect width="80" height="140" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="139" fill="none"/>
+    </g>
+    <g id="Path_2" data-name="Path 2" transform="translate(110 380)" fill="#fff">
+      <path d="M 79.5 49.5 L 0.5 49.5 L 0.5 26.40615463256836 L 0.5 0.5 L 79.5 0.5 L 79.5 49.5 Z" stroke="none"/>
+      <path d="M 1 1 L 1 49 L 79 49 L 79 1 L 1 1 M 0 0 L 80 0 L 80 50 L 0 50 L 0 0 Z" stroke="none" fill="#000"/>
+    </g>
+    <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(0 340)" fill="#fff" stroke="#000" stroke-width="1">
+      <rect width="300" height="22" stroke="none"/>
+      <rect x="0.5" y="0.5" width="299" height="21" fill="none"/>
+    </g>
+    <g id="Path_5" data-name="Path 5" transform="translate(79 340)" fill="#fff">
+      <path d="M 31.5 21.5 L 0.5 21.5 L 0.5 9.5625 L 0.5 0.5 L 31.5 0.5 L 31.5 21.5 Z" stroke="none"/>
+      <path d="M 1 1 L 1 21 L 31 21 L 31 1 L 1 1 M 0 0 L 32 0 L 32 22 L 0 22 L 0 0 Z" stroke="none" fill="#000"/>
+    </g>
+    <g id="Path_4" data-name="Path 4" transform="translate(189 340)" fill="#fff">
+      <path d="M 31.5 21.5 L 0.5 21.5 L 0.5 0.5 L 31.5 0.5 L 31.5 12.4375 L 31.5 21.5 Z" stroke="none"/>
+      <path d="M 1 1 L 1 21 L 31 21 L 31 1 L 1 1 M 0 0 L 32 0 L 32 22 L 0 22 L 0 0 Z" stroke="none" fill="#000"/>
+    </g>
+    <g id="Path_3" data-name="Path 3" transform="translate(220 340)" fill="#fff">
+      <path d="M 31.5 21.5 L 0.5 21.5 L 0.5 0.5 L 31.5 0.5 L 31.5 11.3125 L 31.5 21.5 Z" stroke="none"/>
+      <path d="M 1 1 L 1 21 L 31 21 L 31 1 L 1 1 M 0 0 L 32 0 L 32 22 L 0 22 L 0 0 Z" stroke="none" fill="#000"/>
+    </g>
+    <g id="Path_6" data-name="Path 6" transform="translate(220 290)" fill="#fff">
+      <path d="M 79.5 50.5 L 0.5 50.5 L 0.5 30.70319938659668 L 0.5 0.5 L 79.5 0.5 L 79.5 50.5 Z" stroke="none"/>
+      <path d="M 1 1 L 1 50 L 79 50 L 79 1 L 1 1 M 0 0 L 80 0 L 80 51 L 0 51 L 0 0 Z" stroke="none" fill="#000"/>
+    </g>
+    <g id="Path_1" data-name="Path 1" transform="translate(110 340)" fill="#fff">
+      <path d="M 79.5 40.5 L 0.5 40.5 L 0.5 13.86450004577637 L 0.5 0.5 L 79.5 0.5 L 79.5 40.5 Z" stroke="none"/>
+      <path d="M 1 1 L 1 40 L 79 40 L 79 1 L 1 1 M 0 0 L 80 0 L 80 41 L 0 41 L 0 0 Z" stroke="none" fill="#000"/>
+    </g>
+  </g>
+</svg>

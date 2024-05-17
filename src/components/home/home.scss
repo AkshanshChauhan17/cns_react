@@ -1,0 +1,232 @@
+.home {
+    .solid {
+        color: orange;
+    }
+    .hero-section {
+        display: grid;
+        height: calc(100vh);
+        align-content: center;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        background-color: rebeccapurple;
+        background-image: url("../../assets/backgrounds/1.svg");
+        background-blend-mode: multiply;
+        .logo-flex {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            cursor: pointer;
+            .animation-three-sixty {
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 200px;
+                height: 180px;
+                position: absolute;
+                opacity: 1;
+                transition-duration: 0.3s;
+                background-image: url("../../assets/animations/360_animation.gif");
+            }
+            .itg-logo {
+                transition-duration: 0.3s;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 150px;
+                border-radius: 50%;
+                height: 150px;
+                margin: 15px;
+                opacity: 0;
+                background-image: url("../../assets/solid_images/itg-logo.jpg");
+            }
+        }
+        .logo-flex:hover {
+            .animation-three-sixty {
+                transition-duration: 0.3s;
+                opacity: 0;
+            }
+            .itg-logo {
+                transition-duration: 0.3s;
+                opacity: 1;
+            }
+        }
+        .icon-action {
+            color: orangered;
+        }
+        .hero-heading {
+            font-size: 50px;
+            font-weight: 500;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            .unsolid {
+                color: rgba(255, 255, 255, 0.5);
+            }
+            .solid {
+                color: white;
+            }
+        }
+        .hero-action {
+            font-size: 20px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            .action {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                cursor: pointer;
+            }
+            .action:hover {
+                color: orangered;
+            }
+        }
+    }
+}
+
+.home {
+    .hero-section-banner {
+        height: calc(100vh - 40px);
+        padding: 20px;
+        color: white;
+        background: rgb(143, 143, 143);
+        background-image: url("../../assets/backgrounds/2.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: multiply;
+        display: grid;
+        align-content: center;
+        .hero-section-heading {
+            font-size: 50px;
+            font-weight: 500;
+        }
+        .hero-section-subheading {
+            font-size: 20px;
+            font-weight: 200;
+            color: gray;
+        }
+        .hero-section-small-sections {
+            padding: 40px 0px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            .hero-section-small-section {
+                outline: 1px solid rgba(255, 255, 255, 0.2);
+                padding: 20px;
+                flex: 1;
+                display: grid;
+                gap: 10px;
+                min-width: 500px;
+                align-content: start;
+                .hero-section-small-section-heading {
+                    font-size: 30px;
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    .icon {
+                        color: orangered;
+                    }
+                }
+                .hero-section-small-section-subheading {
+                    font-size: 15px;
+                }
+            }
+        }
+        .controls {
+            .control {
+                width: fit-content;
+                padding: 10px;
+                background-color: transparent;
+                color: white;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-size: 30px;
+                font-weight: 200;
+                margin-left: auto;
+            }
+            .control:hover {
+                color: orangered;
+                outline: 0;
+            }
+        }
+    }
+    .facilities-section {
+        height: fit-content;
+        padding: 20px;
+        display: grid;
+        align-content: center;
+        gap: 20px;
+        .facilities-heading {
+            font-size: 30px;
+            font-weight: 500;
+        }
+        .facilities {
+            display: grid;
+            grid-auto-flow: column;
+            gap: 20px;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            scroll-behavior: smooth;
+            scroll-snap-type: x mandatory;
+        }
+         ::-webkit-scrollbar {
+            display: none;
+        }
+        .facility {
+            margin: 1px;
+            scroll-snap-align: center;
+            outline: 1px solid gray;
+            display: grid;
+            grid-auto-flow: column;
+            gap: 0px;
+            align-content: start;
+            width: 700px;
+            .left {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                aspect-ratio: 1;
+                font-size: 40px;
+                background-color: rgba(0, 0, 0, 0.1);
+                .icon {
+                    color: rgba(0, 0, 0, 0.1);
+                }
+            }
+            .right {
+                padding: 30px 20px;
+                display: grid;
+                gap: 10px;
+                align-content: center;
+                .facility-title {
+                    font-size: 20px;
+                    font-weight: 500;
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                }
+                .facility-content {
+                    font-size: 15px;
+                    color: gray;
+                }
+                .facility-controls {
+                    .facility-control {
+                        display: flex;
+                        color: orangered;
+                        align-items: center;
+                        font-weight: 500;
+                        cursor: pointer;
+                        width: fit-content;
+                    }
+                }
+            }
+        }
+    }
+}
