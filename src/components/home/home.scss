@@ -169,11 +169,10 @@
             font-weight: 500;
         }
         .facilities {
-            display: grid;
+            display: flex;
+            flex-wrap: wrap;
             grid-auto-flow: column;
             gap: 20px;
-            overflow-x: scroll;
-            overflow-y: hidden;
             scroll-behavior: smooth;
             scroll-snap-type: x mandatory;
         }

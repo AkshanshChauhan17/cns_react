@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './home.scss';
-import { BiLeftArrowAlt, BiPlus, BiRightArrowAlt } from 'react-icons/bi';
+import { BiLeftArrowAlt, BiLock, BiPlus, BiRightArrowAlt } from 'react-icons/bi';
 import { BsArrowBarRight, BsArrowDownRight, BsArrowRight, BsArrowRightCircle, BsArrowRightShort } from 'react-icons/bs';
 import { FaRightLong } from 'react-icons/fa6';
 import { facilitiesData, heroSectionData } from '../../database/db.home';
@@ -37,7 +37,7 @@ export default function Home() {
         return (
             <div className="home">
                 <form action='/' className='hero-section' onSubmit={handleSubmitInput}>
-                    <div className="hero-heading">Who Are You?</div>
+                    <div className="hero-heading">College Navigation System?</div>
                     <div className="sub-heading">Enter your name</div>
                     <input type="text" onChange={(e)=>handleInfoInput(e.target.value)}/>
                     {
@@ -114,9 +114,9 @@ export default function Home() {
                     <Link to={"/tour/b2"} className="building" style={{backgroundImage: "url(/src/assets/college_images/B2-VISIT-SECTION.jpg)"}}>
                         B2 360 Tour <GrThreeD size={30}/>
                     </Link>
-                    <Link to={"/tour/b3"} className="building" style={{backgroundImage: "url(/src/assets/college_images/B3-VISIT-SECTION.jpg)"}}>
-                        B3 360 Tour <GrThreeD size={30}/>
-                    </Link>
+                    {/* <Link to={"/"} className="building" style={{backgroundImage: "url(/src/assets/college_images/B3-VISIT-SECTION.jpg)"}}>
+                        B3 360 Tour <BiLock size={30}/>
+                    </Link> */}
                 </div>
             </div>
         )

@@ -418,7 +418,6 @@ export default function BuildingOneTour() {
     }, [])
 
     useEffect(()=>{
-        console.log(mapToMiniMap[sean])
         if(sean!=="") {
             document.getElementById(mapToMiniMap[sean]).classList.add("active-small-map-area");
             return ()=>{
