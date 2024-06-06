@@ -186,21 +186,23 @@ export default function OuterTour() {
                     setSelectedImage("/src/assets/partial-360/OUTER/LARGE/POINT-8.jpg")
                     setViewTitle("POINT-8")
                 }
-            },{
-                "pitch": 3,
-                "yaw": 25,
-                "cssClass": "play",
-                "clickHandlerFunc": ()=>{
-                    document.getElementById("outer_p8").play();
-                    document.getElementById("outer_p8").onplaying = ()=>{
-                        document.querySelectorAll(".play")[0].classList.add("playing")
-                    }
-                    document.getElementById("outer_p8").onended = ()=>{
-                        document.querySelectorAll(".play")[0].classList.remove("playing")
-                    }
-                },
-                "text": `<div class="audio-player"><img src="/src/assets/solid_images/vmsb_image.jpg" alt="Audio Image" class="audio-image"><audio id="outer_p8" hidden><source src="/src/assets/voiceover/OUTER/p8.mp3" type="audio/mp3">Your browser does not support the audio element.</audio></div><div class="info-card"><h3>वीर माधो सिंह भंडारी</h3><div class="link-ar"><a target="CNS_VIEWING_STORY" href="https://youtu.be/_XEkHNE2TJM?si=2PzEReF2Tv01e69B"><img src="/src/assets/solid_images/yt.webp" width="20px" height="40px" style="width: 40px;" title="Watch Full Story"></img></a></div>`
-            }], 
+            },
+            //{
+            //     "pitch": 3,
+            //     "yaw": 25,
+            //     "cssClass": "play",
+            //     "clickHandlerFunc": ()=>{
+            //         document.getElementById("outer_p8").play();
+            //         document.getElementById("outer_p8").onplaying = ()=>{
+            //             document.querySelectorAll(".play")[0].classList.add("playing")
+            //         }
+            //         document.getElementById("outer_p8").onended = ()=>{
+            //             document.querySelectorAll(".play")[0].classList.remove("playing")
+            //         }
+            //     },
+            //     "text": `<div class="audio-player"><img src="/src/assets/solid_images/vmsb_image.jpg" alt="Audio Image" class="audio-image"><audio id="outer_p8" hidden><source src="/src/assets/voiceover/OUTER/p8.mp3" type="audio/mp3">Your browser does not support the audio element.</audio></div><div class="info-card"><h3>वीर माधो सिंह भंडारी</h3><div class="link-ar"><a target="CNS_VIEWING_STORY" href="https://youtu.be/_XEkHNE2TJM?si=2PzEReF2Tv01e69B"><img src="/src/assets/solid_images/yt.webp" width="20px" height="40px" style="width: 40px;" title="Watch Full Story"></img></a></div>`
+            // }
+            ], 
 
             "POINT-5": [{
                 "pitch": 2,
@@ -316,21 +318,23 @@ export default function OuterTour() {
                 "type": "info",
                 "cssClass": "info",
                 "text": "B2 Entrance"
-            },{
-                "pitch": 0,
-                "yaw": -22,
-                "cssClass": "play",
-                "clickHandlerFunc": ()=>{
-                    document.getElementById("outer_p8").play();
-                    document.getElementById("outer_p8").onplaying = ()=>{
-                        document.querySelectorAll(".play")[0].classList.add("playing")
-                    }
-                    document.getElementById("outer_p8").onended = ()=>{
-                        document.querySelectorAll(".play")[0].classList.remove("playing")
-                    }
-                },
-                "text": `<div class="audio-player"><img src="/src/assets/solid_images/vmsb_image.jpg" alt="Audio Image" class="audio-image"><audio id="outer_p8" hidden><source src="/src/assets/voiceover/OUTER/p8.mp3" type="audio/mp3">Your browser does not support the audio element.</audio></div><div class="info-card"><h3>वीर माधो सिंह भंडारी</h3><a target="CNS_VIEWING_STORY" href="https://youtu.be/_XEkHNE2TJM?si=2PzEReF2Tv01e69B"><img src="/src/assets/solid_images/yt.webp" width="20px" height="40px" style="width: 40px;" title="Watch Full Story"></img></a></div>`
-            },{
+            },
+            //{
+            //     "pitch": 0,
+            //     "yaw": -22,
+            //     "cssClass": "play",
+            //     "clickHandlerFunc": ()=>{
+            //         document.getElementById("outer_p8").play();
+            //         document.getElementById("outer_p8").onplaying = ()=>{
+            //             document.querySelectorAll(".play")[0].classList.add("playing")
+            //         }
+            //         document.getElementById("outer_p8").onended = ()=>{
+            //             document.querySelectorAll(".play")[0].classList.remove("playing")
+            //         }
+            //     },
+            //     "text": `<div class="audio-player"><img src="/src/assets/solid_images/vmsb_image.jpg" alt="Audio Image" class="audio-image"><audio id="outer_p8" hidden><source src="/src/assets/voiceover/OUTER/p8.mp3" type="audio/mp3">Your browser does not support the audio element.</audio></div><div class="info-card"><h3>वीर माधो सिंह भंडारी</h3><a target="CNS_VIEWING_STORY" href="https://youtu.be/_XEkHNE2TJM?si=2PzEReF2Tv01e69B"><img src="/src/assets/solid_images/yt.webp" width="20px" height="40px" style="width: 40px;" title="Watch Full Story"></img></a></div>`
+            // },
+            {
                 "pitch": -2,
                 "yaw":-77,
                 "type": "info",
@@ -378,21 +382,23 @@ export default function OuterTour() {
                 "type": "info",
                 "cssClass": "info",
                 "text": "Building 2"
-            },{
-                "pitch": -6,
-                "yaw": 28,
-                "cssClass": "play",
-                "clickHandlerFunc": ()=>{
-                    document.getElementById("outer_p8").play();
-                    document.getElementById("outer_p8").onplaying = ()=>{
-                        document.querySelectorAll(".play")[0].classList.add("playing")
-                    }
-                    document.getElementById("outer_p8").onended = ()=>{
-                        document.querySelectorAll(".play")[0].classList.remove("playing")
-                    }
-                },
-                "text": `<div class="audio-player"><img src="/src/assets/solid_images/vmsb_image.jpg" alt="Audio Image" class="audio-image"><audio id="outer_p8" hidden><source src="/src/assets/voiceover/OUTER/p8.mp3" type="audio/mp3">Your browser does not support the audio element.</audio></div><div class="info-card"><h3>वीर माधो सिंह भंडारी</h3><div class="link-ar"><a target="CNS_VIEWING_STORY" href="https://youtu.be/_XEkHNE2TJM?si=2PzEReF2Tv01e69B"><img src="/src/assets/solid_images/yt.webp" width="20px" height="40px" style="width: 40px;" title="Watch Full Story"></img></a></div>`
-            },{
+            },
+            // {
+            //     "pitch": -6,
+            //     "yaw": 28,
+            //     "cssClass": "play",
+            //     "clickHandlerFunc": ()=>{
+            //         document.getElementById("outer_p8").play();
+            //         document.getElementById("outer_p8").onplaying = ()=>{
+            //             document.querySelectorAll(".play")[0].classList.add("playing")
+            //         }
+            //         document.getElementById("outer_p8").onended = ()=>{
+            //             document.querySelectorAll(".play")[0].classList.remove("playing")
+            //         }
+            //     },
+            //     "text": `<div class="audio-player"><img src="/src/assets/solid_images/vmsb_image.jpg" alt="Audio Image" class="audio-image"><audio id="outer_p8" hidden><source src="/src/assets/voiceover/OUTER/p8.mp3" type="audio/mp3">Your browser does not support the audio element.</audio></div><div class="info-card"><h3>वीर माधो सिंह भंडारी</h3><div class="link-ar"><a target="CNS_VIEWING_STORY" href="https://youtu.be/_XEkHNE2TJM?si=2PzEReF2Tv01e69B"><img src="/src/assets/solid_images/yt.webp" width="20px" height="40px" style="width: 40px;" title="Watch Full Story"></img></a></div>`
+            // }
+            ,{
                 "pitch": -5,
                 "yaw":-84,
                 "type": "info",
@@ -649,7 +655,7 @@ export default function OuterTour() {
                 <div className="tsn-heading">OUTER AR <FaLocationCrosshairs className="icon" /></div>
                 {
                     tree["OUTER\\PLACEHOLDER"].contents.map((e, i)=>{
-                        return <div className="tsn-quick-link" key={i} onClick={()=>{setSelectedImage(`/src/assets/partial-360/OUTER/${size}/${e}`); setViewTitle(e.replace(".jpg", ""))}} style={{backgroundImage: `url(/src/assets/partial-360/OUTER/PLACEHOLDER/${e})`}}>{e.replace(".jpg", "")} <BiArrowFromLeft className="icon" /></div>
+                        return <div className="tsn-quick-link" key={i} onClick={()=>{setSelectedImage(`/src/assets/partial-360/OUTER/${size}/${e}`); setViewTitle(e.replace(".jpg", ""))}} style={{backgroundImage: `url(/src/assets/partial-360/OUTER/PLACEHOLDER/${e})`}}></div>
                     })
                 }
                 </div>
